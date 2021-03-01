@@ -4,7 +4,7 @@ import matplotlib.image as mpimg
 import Image
 
 Chihiro_Image_path='Dataset_opencvdl/Q3_Image/Chihiro.jpg'
-
+# test
 def Sobel(arr,rstart, cstart,masksize, divisor):
     s = 0
     x = 0
@@ -54,6 +54,8 @@ masksize = 3
 img = np.lib.pad(img, p, padwithzeros) #this function padds image with zeros to cater for pixels on the border.
 x = 0
 y = 0
+
+
 for row in img:
     y = 0
     for col in row:
