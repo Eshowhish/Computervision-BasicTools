@@ -1,2 +1,2 @@
 # Computervision-BasicTools
-# Run Command Line : python Hw1234.py
+Run Command Line : python Hw1234.py
